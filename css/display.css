@@ -48,7 +48,7 @@ th, td {
     text-align: left;
 }
 th {
-    background: #7b1fa2;
+    background: #4980d8;
     color: white;
 }
 tr:nth-child(even) {
@@ -60,7 +60,7 @@ img {
 }
 button {
     padding: 10px 20px;
-    background: #8e24aa;
+    background: #4980d8;
     color: white;
     border: none;
     border-radius: 8px;
@@ -68,7 +68,7 @@ button {
     margin-bottom: 20px;
 }
 button:hover {
-    background: #6a1b9a;
+    background: #4980d8;
 }
 /* สีสถานะ */
 .status-paid {
@@ -84,9 +84,9 @@ button:hover {
 #summaryBox {
     margin-top: 30px;
     padding: 20px;
-    background: #ebcae6;
+    background: #cacfeb;
     border-radius: 10px;
-    border-left: 6px solid #943b6b;
+    border-left: 6px solid #6688c3;
 }
 
 #summaryBox h3 {

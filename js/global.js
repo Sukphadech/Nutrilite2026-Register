@@ -347,7 +347,7 @@ $('#userList').on('select2:select', async function (e) {
         // ตรวจสอบว่าลงทะเบียนแล้วหรือยังในตาราง artistryregister
         try {
             const existing = await findRegistration(member.nickname, member.line_name);
-            const price = 220;
+            const price = 350;
 
             setTimeout(() => {
                 if (!concludeBox) return;
@@ -429,7 +429,7 @@ needPayment.addEventListener('change', function () {
 
         selectedUser = { fullname, nickname, line: lineText };
 
-        const price = 220;
+        const price = 350;
         concludeBox.style.display = "block";
         concludeBox.querySelector("p").innerHTML = `
             โปรดโอนจากบัญชีชื่อ: <strong>${fullname}</strong><br>

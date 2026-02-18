@@ -158,7 +158,7 @@ h6 {
    #BACKGROUND
    ========================================================================== */
 .bg-blue {
-  background: #2c6ed5;
+  background: #061c40;
 }
 .bg-green {
   background: #105d1f;
@@ -219,11 +219,11 @@ h6 {
 
 
 .btn--color {
-  background: #9637a7;
+  background: #4980d8;
 }
 
 .btn--color:hover {
-  background: #c053b3;
+  background: #4980d8;
 }
 
 /* ==========================================================================
@@ -456,8 +456,8 @@ Check Box
 
 /* เมื่อถูกเลือก */
 .form-check-input-square:checked {
-  background-color: #982293;
-  border-color: #801e87;
+  background-color: #4980d8;
+  border-color: #122f5e;
 }
 
 /* เอฟเฟกต์ติ๊กถูก */
@@ -493,7 +493,7 @@ Check Box
 }
 
 .copyBtn{
-  background-color: #a22785;
+  background-color: #4980d8;
   color: white;
   border: none;
   padding: 3px 8px;
